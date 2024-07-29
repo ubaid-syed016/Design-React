@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_profile_picture"
+            android:contentDescription="@string/profile_picture"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="john.doe@example.com"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Bio -->
+        <TextView
+            android:id="@+id/profile_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software developer with 5 years of experience in mobile and web development. Passionate about creating high-quality software."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Other Static Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: New York, USA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Joined: January 2020"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
